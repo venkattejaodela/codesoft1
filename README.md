@@ -1,21 +1,28 @@
-Internship Projects Collection
-This repository showcases all the assignments I completed during my internship. Each task includes source code, explanations, and output samples to demonstrate the working logic.
-Task 1: Number Guessing Game
-This is a Java-based console game where the system picks a secret number, and the user must identify it within a fixed number of tries. The game gives directional hints such as **“Too High”, “Too Low”, “Slightly High”, or “Slightly Low”** depending on how close the guess is. Scores are awarded based on how fast the number is guessed, and players may continue with multiple rounds.
-Key Features:
 
-* Random number generated between 1 to 100
-* 5 attempts available per round
-* Smart hints to guide the player
-* Running score for all rounds
-* Replay option at the end of each game
-* Simple and interactive console experience
+# **Internship Projects Collection**
+
+This repository contains all the projects I completed during my internship. Each task includes the source code, logic explanation, and sample outputs to clearly demonstrate how the program works.
+
+---
+
+## **📝 Task 1: Number Guessing Game**
+
+A Java console game where the computer selects a hidden number, and the user must guess it within limited attempts. The game provides helpful hints like **“Too High”, “Too Low”, “Slightly High”,** or **“Slightly Low”** based on how close the guess is. Scores are awarded depending on how quickly the number is found, and the user can play multiple rounds.
+
+### **Key Features**
+
+* Random number generated between **1–100**
+* **5 attempts** per round
+* Intelligent hints for close guesses
+* Cumulative score system
+* Replay support
+* Clean and interactive console UI
 
 ### **Technologies Used**
 
 * Java
-* `Scanner` class for input
-* `Math.random()` for number generation
+* `Scanner` for input
+* `Math.random()` for generating numbers
 
 ### **Example Output**
 
@@ -37,22 +44,23 @@ Your total score: 30
 Would you like to play another round? (yes/no)
 ```
 
-File:`NumberGame.java`
+📌 **File:** `NumberGame.java`
 
 ---
 
-## 📝 **Task 2: Student Grade Calculator**
+## **📝 Task 2: Student Grade Calculator**
 
-**Overview**
+### **Overview**
 
-A simple Java program that computes a student's total marks, average percentage, and final grade based on the marks entered for multiple subjects.
+A Java program that calculates a student’s total marks, percentage, and grade based on the marks entered for each subject.
 
 ### **Highlights**
 
-* Accepts number of subjects and marks out of 100
-* Calculates total marks and percentage
-* Determines grade according to scoring range
-* Neatly formatted output for clarity
+* Inputs number of subjects
+* Accepts marks out of 100
+* Calculates total and average
+* Assigns grade based on percentage
+* Clear and simple output
 
 ### **Grade Chart**
 
@@ -70,27 +78,27 @@ A simple Java program that computes a student's total marks, average percentage,
 
 ---
 
-## 📝 **Task 3: ATM Interface**
+## **📝 Task 3: ATM Interface**
 
 ### **Overview**
 
-This mini-project simulates a basic ATM machine in Java. Users can check their account balance, deposit money, or withdraw funds using a menu-driven console interface.
+A basic simulation of an ATM system using Java. It allows the user to perform essential banking operations through a console menu.
 
 ### **Core Functionalities**
 
-* **Balance Inquiry:** Shows available balance
-* **Deposit:** Adds valid amount to balance
+* **Check Balance:** Displays current balance
+* **Deposit:** Adds valid amount
 * **Withdraw:** Deducts amount if balance is sufficient
-* **Exit:** Closes the program safely
-* **Input Validation:** Disallows negative or invalid transactions
+* **Exit:** Ends session safely
+* **Input Validation:** Rejects invalid values
 
 ### **Concepts Implemented**
 
 * Classes & methods
 * Loops (`while`, `switch`)
-* Conditional logic
+* Conditional statements
 * Static variables
-* User input handling
+* Input handling using `Scanner`
 
 ### **Sample Run**
 
@@ -117,17 +125,21 @@ Withdrawal successful! New balance: ₹1300.0
 
 ---
 
-## ▶️ **How to Execute the Programs**
+## **▶️ How to Execute the Programs**
 
-### 1. Clone the repository:
-
-### 2. Move into the project directory
+### **1. Clone the repository**
 
 ```
-cd CodSoft
+https://github.com/venkattejaodela/codesoft1
 ```
 
-### 3. Compile & Run
+### **2. Navigate to the project directory**
+
+```
+cd codSoft1
+```
+
+### **3. Compile and run the Java files**
 
 Example for Task 1:
 
@@ -138,22 +150,6 @@ java NumberGame
 
 ---
 
-## 👤 **Author**
+## **👤 Author**
 
-**Harshit Kulkarni**
-📌 Hyderabad, India
-💼 Intern | Computer Science Engineering
-🔥 Enthusiastic about Java, AI/ML, and Full-Stack Development
-
----
-
-If you want, I can also:
-
-✅ Add badges
-✅ Add images
-✅ Add tables
-✅ Make it more professional
-✅ Simplify or expand sections
-✅ Personalize it with *your* name instead of his
-
-Just tell me!
+**Venkat Teja Odela**
